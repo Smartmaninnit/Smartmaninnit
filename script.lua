@@ -59,3 +59,20 @@ for name, cf in pairs(locations) do
 end
 
 MainTab:AddLabel("Press T to disable autofarm")
+-- old script contents from your github
+local notification = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local credits = Instance.new("TextLabel")
+local discordLink = Instance.new("TextLabel")
+
+credits.Text = "Made by yoyoyoy"
+credits.Size = UDim2.new(0, 150, 0, 20)
+credits.Position = UDim2.new(0, 10, 0.85, 0)
+credits.Parent = Main
+
+discordLink.Text = "discord.gg/Gjr5vEes"
+discordLink.Size = UDim2.new(0, 150, 0, 20)
+discordLink.Position = UDim2.new(0, 10, 0.95, 0)
+discordLink.Parent = Main
+
+-- rest of your original script below
